@@ -6,7 +6,7 @@ Test Automation with an android environment and cucumber report/profile/backgrou
 
 ```ruby
 a. Instalar o Homebrew:
-* ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+   ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
    
 b. Instalar JDK para o Mac.
 
@@ -14,19 +14,19 @@ c. Instalar rbenv:
 :dart: brew install rbenv
    
 d. Inclua no bash_profile:
--  echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+   echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
    
 e. Listar as versões disponíveis:
--  rbenv install -l
+   rbenv install -l
    
 f. Instalar uma versão:
--  rbenv install 2.3.1
+   rbenv install 2.3.1
    
 g. Ativar rbenv:
--  rbenv local 2.3.1
+   rbenv local 2.3.1
 
 h. Instalar Android Studio
--  Criar e configurar um Android emulator
+   Criar e configurar um Android emulator
 ```
 
 ### Instalando Gems do Ruby
@@ -48,7 +48,7 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
 ```
 
 
-### Executando o projeto
+### Executando o projeto :dart:
 
 ```
 0. Faça um clone do projeto:
