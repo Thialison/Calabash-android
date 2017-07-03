@@ -11,7 +11,7 @@ a. Instalar o Homebrew:
 b. Instalar JDK para o Mac.
 
 c. Instalar rbenv:
-- brew install rbenv
+:dart: brew install rbenv
    
 d. Inclua no bash_profile:
 -  echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
