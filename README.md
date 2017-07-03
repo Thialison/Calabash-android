@@ -6,12 +6,12 @@ Test Automation with an android environment and cucumber report/profile/backgrou
 
 ```ruby
 a. Instalar o Homebrew:
--  ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+* ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
    
 b. Instalar JDK para o Mac.
 
 c. Instalar rbenv:
--  brew install rbenv
+- brew install rbenv
    
 d. Inclua no bash_profile:
 -  echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
