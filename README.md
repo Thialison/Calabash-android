@@ -65,6 +65,3 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
    
 4. Executando feature com report: 
    calabash-android run TrianguloApp.apk features/spec/calculo_triangulo.feature -p report
-
-
-
