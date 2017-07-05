@@ -60,7 +60,11 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
 2. Emulando android virtual device: 
    emulator -avd "<Nome do seu emulator>"&
 
-3. Executando feature no emulator: 
-   calabash-android run TrianguloApp.apk feature/spec/calculo_triangulo.feature
+3. Executando feature calculo de triangulo: 
+   calabash-android run TrianguloApp.apk features/spec/calculo_triangulo.feature
+   
+4. Executando feature com report: 
+   calabash-android run TrianguloApp.apk features/spec/calculo_triangulo.feature -p report
+
 
 
