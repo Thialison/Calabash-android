@@ -22,7 +22,7 @@ e. Instalando rbenv configurando:
    rbenv install 2.3.1
    rbenv local 2.3.1
 
-h. Instalar Android Studio
+f. Instalar Android Studio
    https://developer.android.com/studio/index.html?hl=pt-br
       
 NOTE: Consultar [CONFIGURANDO_AMBIENTE.pdf] para maiores informações
