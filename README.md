@@ -25,7 +25,7 @@ e. Instalando rbenv configurando:
 h. Instalar Android Studio
    https://developer.android.com/studio/index.html?hl=pt-br
       
-NOTE: Consultar CONFIGURANDO_AMBIENTE.pdf para maiores informações
+NOTE: Consultar [CONFIGURANDO_AMBIENTE.pdf] para maiores informações
 ```
 
 ### Instalando Gems do Ruby
