@@ -8,7 +8,8 @@ Test Automation with an android environment and cucumber report/profile/backgrou
 a. Instalar o Homebrew:
    ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
    
-b. Instalar JDK para o Mac.
+b. Instalar JDK para o Mac:
+   http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 c. Instalar rbenv:
    brew install rbenv
@@ -22,10 +23,9 @@ e. Instalando rbenv configurando:
    rbenv local 2.3.1
 
 h. Instalar Android Studio
-   Criar e configurar um Android emulator 
-   
-   
-NOTE: Consultar CONFIGURANDO_AMBIENTE.pdf
+   https://developer.android.com/studio/index.html?hl=pt-br
+      
+NOTE: Consultar CONFIGURANDO_AMBIENTE.pdf para maiores informações
 ```
 
 ### Instalando Gems do Ruby
