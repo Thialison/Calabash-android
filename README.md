@@ -16,7 +16,8 @@ c. Instalar rbenv:
    
 d. Inclua no bash_profile:
    echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-   
+   ```
+   ```ruby
 e. Instalando rbenv configurando:
    rbenv install -l
    rbenv install 2.3.1
@@ -38,6 +39,9 @@ gem install calabash-android
 ### Váriaveis de ambiente do Android
 
 ```ruby
+Abrir arquivo de configuração
+open ~/.bash_profile
+
 export ANDROID_HOME=/Users/<usuario>/Library/Android/sdk
 export ANDROID_PLATAFORM_TOOLS=/Users/<usuario>/Library/Android/sdk/platform-tools
 export ANDROID_TOOLS=/Users/<usuario>/Library/Android/sdk/tools
@@ -49,7 +53,7 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
 
 ### Executando o projeto :dart:
 
-```
+```ruby
 0. Faça um clone do projeto:
    git clone https://github.com/Thialison/Calabash-android.git
    
@@ -64,3 +68,4 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
    
 4. Executando feature com report: 
    calabash-android run TrianguloApp.apk features/spec/calculo_triangulo.feature -p report
+   ```
