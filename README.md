@@ -16,8 +16,7 @@ c. Instalar rbenv:
    
 d. Inclua no bash_profile:
    echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-   ```
-   ```ruby
+
 e. Instalando rbenv configurando:
    rbenv install -l
    rbenv install 2.3.1
