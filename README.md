@@ -16,17 +16,16 @@ c. Instalar rbenv:
 d. Inclua no bash_profile:
    echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
    
-e. Listar as versões disponíveis:
+e. Instalando rbenv configurando:
    rbenv install -l
-   
-f. Instalar uma versão:
    rbenv install 2.3.1
-   
-g. Ativar rbenv:
    rbenv local 2.3.1
 
 h. Instalar Android Studio
-   Criar e configurar um Android emulator
+   Criar e configurar um Android emulator 
+   
+   
+NOTE: Consultar CONFIGURANDO_AMBIENTE.pdf
 ```
 
 ### Instalando Gems do Ruby
