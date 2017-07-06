@@ -1,9 +1,3 @@
 start_test_server_in_background
-press_back_button
-press_menu_button
-press_enter_button
-query"*"
-press_back_button
 shutdown_test_server
-exi
 exit
