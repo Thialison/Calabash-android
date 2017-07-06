@@ -51,7 +51,7 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
 
 ```
 0. Faça um clone do projeto:
-   git clone 
+   git clone https://github.com/Thialison/Calabash-android.git
    
 1. Abrindo o Emulator do android no terminal:
    cd $ANDROID_HOME/emulator
