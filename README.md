@@ -2,7 +2,7 @@
 Test Automation with an android environment and cucumber report/profile/background
 
 
-### Instalação Ambiente MAC
+### Instalando Ambiente Ruby no MAC
 
 ```ruby
 a. Instalar o Homebrew:
@@ -31,7 +31,7 @@ gem install bundler
 gem install calabash-android
 ```
 
-### Váriaveis de ambiente do Android
+### Váriaveis de Ambiente do Android
 
 ```ruby
 Abrir arquivo de configuração
@@ -46,7 +46,7 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
 ```
 
 
-### Executando o projeto :dart:
+### Executando o Projeto :dart:
 
 ```ruby
 0. Faça um clone do projeto:
