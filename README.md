@@ -11,21 +11,17 @@ a. Instalar o Homebrew:
 b. Instalar JDK para o Mac:
    http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-c. Instalar rbenv:
+c. Instalando e configurando o rbenv:
    brew install rbenv
-   
-d. Inclua no bash_profile:
    echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-
-e. Instalando rbenv configurando:
    rbenv install -l
    rbenv install 2.3.1
    rbenv local 2.3.1
 
-f. Instalar Android Studio
+d. Instalar Android Studio
    https://developer.android.com/studio/index.html?hl=pt-br
       
-NOTE: Consultar [CONFIGURANDO_AMBIENTE.pdf] para maiores informações
+NOTE: Consultar o arquivo [CONFIGURANDO_AMBIENTE.pdf] para maiores informações
 ```
 
 ### Instalando Gems do Ruby
@@ -56,7 +52,7 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
 0. Faça um clone do projeto:
    git clone https://github.com/Thialison/Calabash-android.git
    
-1. Abrindo o Emulator do android no terminal:
+1. Abrindo o Emulator do android no terminal [NECESSÁRIO TER UM AVD CRIADO]:
    cd $ANDROID_HOME/emulator
 
 2. Emulando android virtual device: 
