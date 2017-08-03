@@ -12,7 +12,7 @@ Funcionalidade: Calculo de triângulo
       
       Quando eu preencher o Lado 1 com "3", lado 2 com "3" e lado 3 com "3"
       E eu clicar em Calcular
-      Então a mensagem "O triângulo é Equilátero" sera exibida
+      Então a mensagem "O triângulo é Equilátero" será exibida
 
 
    @escaleno
@@ -20,7 +20,7 @@ Funcionalidade: Calculo de triângulo
       
       Quando eu preencher o Lado 1 com "3", lado 2 com "11" e lado 3 com "23"
         E eu clicar em Calcular
-      Então a mensagem "O triângulo é Escaleno" sera exibida
+      Então a mensagem "O triângulo é Escaleno" será exibida
 
 
    @isosceles
@@ -28,14 +28,14 @@ Funcionalidade: Calculo de triângulo
       
       Quando eu preencher o Lado 1 com "3", lado 2 com "3" e lado 3 com "23"
         E eu clicar em Calcular
-      Então a mensagem "O triângulo é Isósceles" sera exibida
+      Então a mensagem "O triângulo é Isósceles" será exibida
 
     @negativo
     Cenário: Calculando sem preenchimento de todos os campos
     	
     	Quando eu preencher o Lado 1 com "3", lado 2 com "11" e lado 3 com ""
       	 E eu clicar em Calcular
-        Então a mensagem de alerta "Preencha todos os campos" sera exibida 
+        Então a mensagem "Preencha todos os campos" será exibida 
 
 
 
