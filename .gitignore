@@ -1,5 +1,5 @@
 *.DS_Store
 .irb-history
 test_servers/*
-.gitignore
+*.gitignore
 report/.DS_Store
