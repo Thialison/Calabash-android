@@ -4,7 +4,7 @@
 Funcionalidade: Calculo de triângulo
 
 Esquema do Cenário: Calcular tipo de triângulo
-	Dado que estou na tela do App
+			Dado que estou na tela do App
       Quando eu preencher o campo 1 "<lado1>"
       Quando eu preencher o campo 2 "<lado2>"
       Quando eu preencher o campo 3 "<lado3>"
