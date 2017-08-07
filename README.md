@@ -37,10 +37,11 @@ gem install calabash-android
 Abrir arquivo de configuração
 open ~/.bash_profile
 
-export ANDROID_HOME=/Users/<usuario>/Library/Android/sdk
-export ANDROID_PLATAFORM_TOOLS=/Users/<usuario>/Library/Android/sdk/platform-tools
-export ANDROID_TOOLS=/Users/<usuario>/Library/Android/sdk/tools
-export ANDROID_ADB=/Users/<usuario>/Library/Android/sdk/platform-tools/adb
+export ANDROID_HOME=/Users/inmetrics/Library/Android/sdk
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools/adb:$PATH
+export PATH=$ANDROID_HOME/emulator/:$PATH
 
 NOTE: Trocar o <usuario> pelo nome do seu usuário
 ```
