@@ -38,7 +38,7 @@ Abrir arquivo de configuração
 open ~/.bash_profile
 
 export ANDROID_HOME=/Users/<usuario>/Library/Android/sdk
-export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/tools/bin:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools/adb:$PATH
 export PATH=$ANDROID_HOME/emulator/:$PATH
