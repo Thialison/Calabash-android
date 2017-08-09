@@ -37,7 +37,7 @@ gem install calabash-android
 Abrir arquivo de configuração
 open ~/.bash_profile
 
-export ANDROID_HOME=/Users/inmetrics/Library/Android/sdk
+export ANDROID_HOME=/Users/<usuario>/Library/Android/sdk
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools/adb:$PATH
@@ -50,14 +50,11 @@ NOTE: Trocar o <usuario> pelo nome do seu usuário
 ### Executando o Projeto :dart:
 
 ```ruby
-0. Faça um clone do projeto:
+1. Faça um clone do projeto:
    git clone https://github.com/Thialison/Calabash-android.git
-   
-1. Abrindo o Emulator do android no terminal [NECESSÁRIO TER UM AVD CRIADO]:
-   cd $ANDROID_HOME/emulator
 
 2. Emulando android virtual device: 
-   emulator -avd "<Nome do seu emulator>"&
+   emulator @"<Nome do seu emulator>"&
 
 3. Executando feature calculo de triangulo: 
    calabash-android run TrianguloApp.apk features/spec/calculo_triangulo.feature
