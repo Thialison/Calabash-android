@@ -18,9 +18,14 @@ c. Instalando e configurando o rbenv:
    rbenv install 2.3.1
    rbenv local 2.3.1
 
-d. Instalar Android Studio
+d. Instalar Android Studio:
    https://developer.android.com/studio/index.html?hl=pt-br
-      
+
+e. Personalizar terminal MacOS:
+   Link no github => https://github.com/robbyrussell/oh-my-zsh
+   Basic Installation via curl => sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
 NOTE: Consultar o arquivo [CONFIGURANDO_AMBIENTE.pdf] para maiores informações
 ```
 
