@@ -21,11 +21,6 @@ c. Instalando e configurando o rbenv:
 d. Instalar Android Studio:
    https://developer.android.com/studio/index.html?hl=pt-br
 
-e. Personalizar terminal MacOS:
-   Link no github => https://github.com/robbyrussell/oh-my-zsh
-   Basic Installation via curl => sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-
 NOTE: Consultar o arquivo [CONFIGURANDO_AMBIENTE.pdf] para maiores informações
 ```
 
@@ -52,6 +47,20 @@ export PATH=$ANDROID_HOME/emulator/:$PATH
 NOTE: Trocar o <usuario> pelo nome do seu usuário
 ```
 
+### Personalizando terminal MacOS:
+
+```ruby
+a. Baixar zsh:
+   https://github.com/robbyrussell/oh-my-zsh
+
+b. Instalação zsh básica via curl:
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   
+c. Abrir arquivo de configuração no terminal:
+   open ~/.zhsrc
+   
+   source ~/.bash_profile
+```
 
 ### Executando o Projeto :dart:
 
