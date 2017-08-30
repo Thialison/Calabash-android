@@ -59,6 +59,7 @@ b. Instalação zsh básica via curl:
 c. Abrir arquivo de configuração no terminal:
    open ~/.zhsrc
    
+d. No arquivo aberto colar a seguinte configuração
    source ~/.bash_profile
 ```
 
